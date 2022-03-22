@@ -1,0 +1,54 @@
+.splash-container {
+	background: #040 url("../img/dollar.jpg") no-repeat center top;
+	background-size: 100% 100%;
+	height: 100%;
+}
+
+.splash-head {
+	/*border: 0;*/
+	border-color: rgb(255, 255, 255);
+	font-weight: 400;
+	background-color: rgb(134, 134, 134, 0.35);
+
+}
+
+.splash-subhead {
+	background-color: rgba(0, 0, 0, 0.35);
+	font-size: 1.3em;
+}
+.content-wrapper {
+	top: 100%;
+}
+
+.err {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	background-color: #f88;
+	color: #222;
+}
+
+.inf {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	background-color: #8f8;
+	color: #222;
+}
+
+.res {
+	padding: 1em 1em 1em 1.5em;
+	border-radius: 1em;
+	background-color: #ff0;
+	color: #222;
+}
+
+p {
+	font: weight 900px;
+}
+
+a.pure-button-primary {
+	color: #000;
+}
+
+a.pure-button-primary:hover {
+	background-color: rgb(121, 121, 121);
+}
